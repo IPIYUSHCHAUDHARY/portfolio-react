@@ -1,0 +1,31 @@
+.main{
+    .container{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .app-title{
+            font-size: 48px;
+            font-weight: 700;
+
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+
+            &-sub{
+                font-size: 24px;
+                color: rgba(255, 255, 255, 0.8);
+
+                span{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 500;
+                    color: #fff;
+                    border-bottom: 1px solid #18d26e;
+                    padding-bottom: 4px;
+                }
+            }
+        }
+    }
+}
